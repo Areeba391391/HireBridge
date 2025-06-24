@@ -1,0 +1,442 @@
+.navbar{
+  background: linear-gradient(to right, #322370, #234D76);
+}
+.right-nav ul li a{
+    color: white;
+}
+.right-nav ul.open{
+  background: linear-gradient(to right, #322370, #234D76);
+}
+.left-nav img{
+      filter: brightness(0) invert(1);
+
+}
+.hb-section-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.hirebridge-footer {
+  background: linear-gradient(to right, #322370, #234D76);
+}
+
+.toggle-btn{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hb-svc-area {
+  /* background-color: #f7fafd; */
+  padding: 5rem 1rem;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.hb-svc-wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.hb-svc-heading {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #234D76;
+  margin-bottom: 3rem;
+  letter-spacing: 2px;
+}
+/* Icon Base Style */
+.hb-svc-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Individual Brand Colors */
+.code-color { color: #e67e22; }         /* Orange - Web Dev */
+.chart-color { color: #2980b9; }        /* Blue - Data Analytics */
+.vr-color { color: #8e44ad; }           /* Purple - Visual Computing */
+.uiux-color { color: #f39c12; }         /* Yellow - UI/UX */
+.android-color { color: #27ae60; }      /* Green - Android */
+.apple-color { color: #7f8c8d; }        /* Gray - Apple */
+
+/* Hover Effect - Change All to Blue */
+.hb-svc-item:hover .hb-svc-icon {
+  color: #234D76 !important;
+  transform: scale(1.2);
+}
+
+.hb-svc-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* ✅ Center-align all items including last row */
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.hb-svc-item {
+  background: #ffffff;
+  padding: 2rem 1.2rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hb-svc-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.hb-svc-item img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+}
+
+.hb-svc-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #322370;
+  margin-bottom: 0.6rem;
+}
+
+.hb-svc-desc {
+  font-size: 0.92rem;
+  color: #5a5a5a;
+  line-height: 1.6;
+}
+
+.hb-svc-btn {
+  display: inline-block;
+  background-color: #e63946;
+  color: #ffffff;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.hb-svc-btn:hover {
+  background-color: #c9303a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hb-why-hire-section {
+  background-color: #f7f9fc;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  height: 550px;
+
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.hb-why-hire-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hb-why-hire-heading {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  color: #234D76;
+}
+
+.hb-why-hire-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.hb-why-hire-item {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hb-why-hire-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.why-icon{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.hb-why-hire-item:hover i {
+  color: #234D76 !important;
+}
+
+.hb-why-hire-item h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.hb-why-hire-item p {
+  font-size: 0.95rem;
+  color: #4a5568;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hb-process-area {
+  background-color: #f7f9fc;
+  color: #234D76;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.hb-process-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hb-process-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.hb-process-subheading {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  color: #173965;
+}
+
+.hb-process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.hb-process-step {
+  /* background-color: rgba(255, 255, 255, 0.461); */
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.hb-process-step:hover {
+  transform: translateY(-6px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hb-step-icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(189, 211, 249, 0.461);
+  color: #234D76;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+
+
+
+
+
+
+
+.hb-industries-v2 {
+  position: relative;
+  padding: 6rem 1.5rem 4rem;
+  /* background: linear-gradient(to right, #98bff178, #c2b3ee70); */
+background: linear-gradient(rgba(35, 77, 118, 0.468), rgba(81, 35, 118, 0.422)),
+            url("images/about_1.jpg.webp");  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+.hb-industries-heading-v2 {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #ffffff;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  transition: all ease 0.4s;
+}
+.hb-industries-heading-v2:hover{
+    transform: scale(1.06);
+    color: #4376a8;
+}
+
+.hb-industries-subtext-v2 {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hb-industries-grid-v2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+/* .hb-industry-box-v2 {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  border-top: 5px solid transparent;
+  cursor: pointer;
+} */
+.hb-industry-box-v2 {
+  flex: 1 1 calc(25% - 2rem);
+  max-width: calc(25% - 2rem);
+  min-width: 260px;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  /* box-shadow: 0 12px 25px rgba(0, 0, 0, 0.07); */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  border-top: 5px solid transparent;
+  cursor: pointer;
+}
+
+.hb-industry-box-v2 i {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #234D76;
+  transition: transform 0.3s ease;
+}
+
+.hb-industry-box-v2 h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.hb-industry-box-v2 p {
+  font-size: 0.95rem;
+  color: #5f6b7a;
+  line-height: 1.6;
+}
+
+.hb-industry-box-v2:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hb-industry-box-v2:hover i {
+  transform: scale(1.2) rotate(8deg);
+  color: #322370;
+}
+
+/* Specific color accents */
+.finance { border-top-color: #1abc9c; }
+.healthcare { border-top-color: #e74c3c; }
+.education { border-top-color: #f39c12; }
+.ecommerce { border-top-color: #8e44ad; }
+.travel { border-top-color: #3498db; }
+.logistics { border-top-color: #e67e22; }
+
+/* SVG wave background */
+/* .hb-industries-bg-v2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  pointer-events: none;
+} */
+.hb-industries-grid-v2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .hb-industries-heading-v2 {
+    font-size: 2rem;
+  }
+
+  .hb-industries-subtext-v2 {
+    font-size: 1rem;
+  }
+
+  .hb-industry-box-v2 {
+    padding: 1.5rem;
+  }
+
+  .hb-industry-box-v2 i {
+    font-size: 2rem;
+  }
+}
