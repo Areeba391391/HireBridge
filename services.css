@@ -27,6 +27,177 @@
     color: white;
 }
 
+.service-banner{
+  width: 100%;
+  height: 500px;
+  background-color: #E5EDFD;
+}
+.service-banner-cont{
+  width: 90%;
+  height: 100%;
+display: flex;
+margin: 0px auto;
+}
+.service-banner-left{
+width: 50%;
+height: 100%;
+display: flex;
+/* text-align: left; */
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-right: 50px;
+box-sizing: border-box;
+}
+
+.service-banner-right{
+width: 50%;
+height: 100%;
+}
+.service-banner-right video{
+  width: 500px;
+  height: 500px;
+}
+.hb-main-title{
+  text-align: left;
+  line-height: 60px;
+}
+.hb-sub-description {
+  line-height: 30px;
+    font-size: 1.15rem;
+    color: #4a5568;
+    text-align: left;
+    margin-bottom: 4rem;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.info-card {
+  background-color: #173965;
+} */
+.job-service-cont{
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      /* background: #f5f5f5; */
+      width: 100%;
+      height: 700px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+    }
+/* 
+    .info-section-title {
+      text-align: center;
+      text-align: center;
+      font-size: 2.5rem;
+      margin: 0px auto;
+      margin-bottom: 40px;
+      border-bottom: 2px solid #000;
+      display: inline-block;
+      padding-bottom: 5px;
+    } */
+
+    .info-card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .info-card {
+      background: #d5ddf498;
+      /* padding: 20px; */
+      /* box-shadow: 0 4px 12px rgba(0,0,0,0.1); */
+      text-align: center;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .info-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .info-card video {
+      width: 100%;
+      height: 205px;
+      object-fit: cover;
+      border-radius: 6px;
+      /* margin-bottom: 15px; */
+    }
+
+    .info-card-title {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #234D76;
+      font-weight: bold;
+    }
+
+    .info-card-desc {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .info-card-btn a {
+      display: inline-block;
+      text-decoration: none;
+      padding: 8px 18px;
+      border: 1px solid #234D76;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      color: white;
+      transition: all 0.3s ease;
+            background-color: #234D76;
+
+    }
+
+    .info-card-btn a:hover {
+      background-color: white;
+      color: #234D76;
+    }
+
+    @media (max-width: 480px) {
+      .info-section-title {
+        font-size: 2rem;
+      }
+
+      .info-card img {
+        height: 160px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -64,22 +235,19 @@
   margin-bottom: 3rem;
   letter-spacing: 2px;
 }
-/* Icon Base Style */
 .hb-svc-icon {
   font-size: 3rem;
   margin-bottom: 1rem;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Individual Brand Colors */
-.code-color { color: #e67e22; }         /* Orange - Web Dev */
-.chart-color { color: #2980b9; }        /* Blue - Data Analytics */
-.vr-color { color: #8e44ad; }           /* Purple - Visual Computing */
-.uiux-color { color: #f39c12; }         /* Yellow - UI/UX */
-.android-color { color: #27ae60; }      /* Green - Android */
-.apple-color { color: #7f8c8d; }        /* Gray - Apple */
+.code-color { color: #e67e22; }         
+.chart-color { color: #2980b9; }        
+.vr-color { color: #8e44ad; }           
+.uiux-color { color: #f39c12; }        
+.android-color { color: #27ae60; }      
+.apple-color { color: #7f8c8d; }      
 
-/* Hover Effect - Change All to Blue */
 .hb-svc-item:hover .hb-svc-icon {
   color: #234D76 !important;
   transform: scale(1.2);
@@ -88,7 +256,7 @@
 .hb-svc-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* ✅ Center-align all items including last row */
+  justify-content: center; 
   gap: 2rem;
   margin-bottom: 2.5rem;
 }
